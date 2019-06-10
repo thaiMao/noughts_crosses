@@ -1,7 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import withImmutablePropsToJS from "with-immutable-props-to-js";
-import styles from "./styles";
+import styles from "./styles.css";
 import { turnSelector } from "../../selectors";
 
 function Info({ isDraw, turn, isGameOver }) {

@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./style";
+import styles from "./style.css";
 
 function Cell({ children, data, handleClick, id }) {
   return (
